@@ -4,46 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pendaftaran SPMB</title>
+    <style>
+        body {
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <h1>Form Pendaftaran SPMB</h1>
     <table>
-        <tr style="text-align: left;">
+        <tr>
             <th>Nama Lengkap</th>
             <th>:</th>
             <th><input type="text" name="nama" required></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>No.HP</th>
             <th>:</th>
             <th><input type="number" name="no_hp" required></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Tanggal Lahir</th>
             <th>:</th>
             <th><input type="date" name="tanggal_lahir" required></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Email</th>
             <th>:</th>
             <th><input type="email" name="email" required></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Password</th>
             <th>:</th>
             <th><input type="password" name="password" required></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Jenis Kelamin</th>
             <th>:</th>
             <td><input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</td>
             </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th></th>
             <th></th>
             <td><input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan</td>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Sub Organ</th>
             <th>:</th>
             <td><input type="checkbox" name="suborgan" value="MAC"> MAC</td>
@@ -83,7 +88,7 @@
             <th></th>
             <td><input type="checkbox" name="suborgan" value="Basket"> Basket</td>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Jurusan</th>
             <th>:</th>
             <th>
@@ -95,17 +100,17 @@
                 </select>
             </th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Alamat</th>
             <th>:</th>
             <th><textarea name="Alamat" rows="2" cols="25" required></textarea></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th>Upload Foto</th>
             <th>:</th>
             <th><input type="file" name="foto" required></th>
         </tr>
-        <tr style="text-align: left;">
+        <tr>
             <th><button type="submit">Kirim</button></th>
         </tr>
     </table>
