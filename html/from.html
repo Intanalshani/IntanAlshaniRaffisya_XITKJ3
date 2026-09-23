@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+     <title>Form Pendaftaran Komunitas Anti Bullying</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th style="text-align: left;"><label for="nama">Nama</label></th>
+            <th>:</th>
+            <th><input type="text" id="nama" name="nama" required></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="email">Email</label></th>
+            <th>:</th>
+            <th><input type="email" id="email" name="email" required></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="number">Nomor HP</label></th>
+            <th>:</th>
+            <th><input type="text" id="number" name="number" required></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="gender">Jenis Kelamin</label></th>
+            <th>:</th>
+            <th>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Perempuan</label>
+            </th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="birthdate">Tanggal Lahir</label></th>
+            <th>:</th>
+            <th><input type="date" id="birthdate" name="birthdate" required></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="hobi">Hobi</label></th>
+            <th>:</th>
+            <th><input type="checkbox" id="hobi" name="hobi" value="membaca" required>
+                <label for="hobi">Membaca</label>
+                <input type="checkbox" id="hobi2" name="hobi" value="olahraga" required>
+                <label for="hobi2">Olahraga</label>
+                <input type="checkbox" id="hobi3" name="hobi" value="musik" required>
+                <label for="hobi3">Musik</label></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="kelas">Kelas</label></th>
+            <th>:</th>
+            <th><select name="kelas" id="kelas" required>
+                <option value="">Pilih Kelas</option>
+                <option value="X">X</option>
+                <option value="XI">XI</option>
+                <option value="XII">XII</option>
+            </select></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"><label for="pesan">Pesan</label></th>
+            <th>:</th>
+            <th><textarea id="pesan" name="pesan" rows="5" cols="20" 
+                placeholder="Tuliskan pesan anda..." required></textarea></th>
+        </tr>
+        <tr>
+            <th style="text-align: left;"></th>
+            <th></th>
+            <th><button type="submit">Kirim</button></th>
+        </tr>
+    </table>
+</body>
+</html>
