@@ -1,0 +1,17 @@
+.kartu-profile {
+    width: 300px;
+    height: 400px;
+    border: 2px solid #696f11;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    background-color: #581010;
+    color: #ffffff;
+}
+
+.kartu-profile:hover {
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.34);
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,23 @@
+#Judul { 
+    text-align: center;
+    font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif, serif;
+    color: #19705a;
+    margin-top: 20px;
+}
+
+.nama {
+    text-align:left;
+    font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif, serif;
+    color: #0b3d31;
+    margin-top: 20px;
+}
+
+.motto {
+    text-align:left;
+    font-family:sans-serif;
+    color: #183730;
+}
+
+background {
+    background-color: #000000;
+}

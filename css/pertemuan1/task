@@ -1,0 +1,6 @@
+Tugas: Membuat Halaman Biodata Diri
+
+Buatlah sebuah halaman HTML baru berisi biodata diri kalian (nama, kelas, hobi, dan motto hidup).
+Ketentuan: gunakan CSS eksternal (bukan inline atau internal), gunakan minimal 3 element selector berbeda, minimal 2 class selector, dan 1 id selector.
+Atur juga warna teks, ukuran huruf, dan warna latar belakang halaman.
+Simpan sebagai index.html dan style.css, lalu kumpulkan sesuai instruksi guru.
