@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran SPMB</title>
+</head>
+<body>
+    <h1>Form Pendaftaran SPMB</h1>
+    <table>
+        <tr style="text-align: left;">
+            <th>Nama Lengkap</th>
+            <th>:</th>
+            <th><input type="text" name="nama" required></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>No.HP</th>
+            <th>:</th>
+            <th><input type="number" name="no_hp" required></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Tanggal Lahir</th>
+            <th>:</th>
+            <th><input type="date" name="tanggal_lahir" required></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Email</th>
+            <th>:</th>
+            <th><input type="email" name="email" required></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Password</th>
+            <th>:</th>
+            <th><input type="password" name="password" required></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Jenis Kelamin</th>
+            <th>:</th>
+            <td><input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</td>
+            </tr>
+        <tr style="text-align: left;">
+            <th></th>
+            <th></th>
+            <td><input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan</td>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Sub Organ</th>
+            <th>:</th>
+            <td><input type="checkbox" name="suborgan" value="MAC"> MAC</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="PASKATEMA"> PASKATEMA</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="Memo"> Memo</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="Metic"> Metic</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="IRC"> IRC</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="IRC"> IRC</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="COMET"> COMET</td>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <td><input type="checkbox" name="suborgan" value="Basket"> Basket</td>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Jurusan</th>
+            <th>:</th>
+            <th>
+                <select name="jurusan" required>
+                    <option value="">Pilih Jurusan</option>
+                    <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan</option>
+                    <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+                    <option value="Pengembangan Gim">Pengembangan Gim</option>
+                </select>
+            </th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Alamat</th>
+            <th>:</th>
+            <th><textarea name="Alamat" rows="2" cols="25" required></textarea></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th>Upload Foto</th>
+            <th>:</th>
+            <th><input type="file" name="foto" required></th>
+        </tr>
+        <tr style="text-align: left;">
+            <th><button type="submit">Kirim</button></th>
+        </tr>
+    </table>
+</body>
+</html>
